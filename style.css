@@ -19,6 +19,7 @@
     width: 300px;
     height: 300px;
     box-shadow: 0 0 15px rgb(154 147 140 / 60%);
+    margin-left: 30px;
 }
 
 .dis{
@@ -27,6 +28,7 @@
     max-width: 400px;
     margin-top: 10px;
     padding: 13px;
+    margin-left: 30px;
 }
 
 .karta{
