@@ -1,0 +1,75 @@
+
+
+.top-text{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 100;
+}
+    
+.img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 15px rgb(154 147 140 / 60%);
+}
+
+.dis{
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 2%);
+    max-width: 400px;
+    margin-top: 10px;
+    padding: 13px;
+}
+
+.karta{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+@media (width:2560px) {
+    p{
+        font-size: 25px;
+    }
+}
+
+@media (width:1200px){
+    .container{
+        justify-content: space-evenly;
+    }
+}
+
+@media (width:768px){
+    .karta{
+        display: flex;
+        align-items: center;
+        font-size: 21px;
+        padding-left: 130px;
+    }
+}
+
+@media (width:425px){
+    .karta{
+        padding-left: 50px;
+    }
+}
+
+@media (width:375px){
+    .karta{
+        padding-left: 25px;
+    }
+}
+
+@media (width:320px){
+    .karta{
+        font-size:20px ;
+
+    }
+}
